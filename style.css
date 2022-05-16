@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hard{
+    width: 10%;
+    height: 10%;
+}
+.medium{
+    width: calc(100%/9);
+    height: calc(100%/9);
+}
+.easy{
+    width: calc(100%/7);
+    height: calc(100%/7);
+}
+#Grid{
+    position: relative;
+   width: 800px;
+   height: 800px;
+    margin: 10px auto;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.d-none{
+    display: none;
+}
+.w-100{
+    width: 100%;
+}
+.specchio{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bg-win{
+    background-color: rgba(144, 238, 144, 0.7);
+}
+.bg-lose{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+.centrato{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+   
+}
+header{
+    padding-top: 10px;
+    text-align: center;
+}header h1{
+    padding-bottom: 10px;
+   
+}
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+.bg-red{
+    background-color: red;
+}
+.c-blue{
+    color: rgb(68, 0, 255);
+    font-size: 70px;
+}
+.c-lightgreen{
+    color:green;
+    font-size: 70px;
+}
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+.no-pointer{
+    pointer-events:none;
+    cursor: none;
+}
